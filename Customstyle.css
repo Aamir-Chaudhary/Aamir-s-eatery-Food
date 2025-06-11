@@ -1,0 +1,258 @@
+*,
+*:after
+*:before
+{
+ -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+:active,
+:hover,
+:focus{
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color: #dc3545 !important;
+
+}
+a:hover
+{
+  color:red!important;
+}
+.navbar
+{
+  
+}
+.form-control.danger-outline:focus {
+    border-color: #dc3545 !important; /* Bootstrap's danger color */
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* red glow */
+  }
+h2,h5
+{
+  font-weight: 700;
+  color:#40060b
+}
+p
+{
+  color: gray;
+}
+
+.main-button
+{
+  padding: 0.5rem;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(183, 3, 3);
+  border: none;
+
+  
+}
+.white-button:hover,
+.main-button:hover
+{
+  background-color: red;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.15s;
+  
+}
+
+.white-button
+{
+  padding: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  color: black;
+  background-color:transparent; 
+  border: none;
+}
+
+   /* Section-1 TOP-Banner*/
+/*============================*/
+.top-banner
+{
+  width: 100%;
+  background: url("image/flat-lay-food-assortment-with-copy-space.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 16.857rem;
+  padding-bottom: 9.375rem;
+
+}
+  /* Counter section*/
+/*============================*/
+.counter-section
+{
+background-color: #dc3545;
+padding: 2.5rem 0;
+}
+.counter-section p
+{
+  color: white;
+  text-transform: uppercase;
+}
+/* Change NavBar styling on scroll*/
+/*============================*/
+.navigation-wrap.scroll-on
+{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0,125rem 1.75rem 0 rgb(0,0,0,0.9);
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+
+}
+
+/* About-section*/
+/*============================*/
+#About
+{
+  padding-top: 3.25rem;
+}
+.img-fluid
+{
+ 
+border-radius: 0.625rem;
+
+}
+.about-wrapper
+{
+  padding-left: 2rem;
+}
+
+
+/* Food Type Explore-section*/
+/*============================*/
+#Explore-food .card
+{
+  border: none;
+  background-color: transparent;
+  border-radius: 0.9375rem;
+}
+
+.card-img-top
+{
+   
+   height: 250px;
+   border-radius: 0.9375rem;
+   object-fit: cover;
+}
+.card-img-top:hover
+{
+  transition: transform 0.3s ease-in-out;
+   transform: scale(1.02); 
+}
+
+/*Review-Testimonial-Section*/
+/*==========================*/
+
+.testimonial-section
+{
+  background-color: #dc3545;
+}
+.testimonial-section .carousel-item 
+{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 5rem 3.125rem;
+  background-color: white;
+  border-radius: 0.9375rem;
+  text-align: center;
+}
+.testimonial-section .carousel-item img
+{
+  max-width: 5rem;
+  border-radius: 50%;
+  padding: 0.3125rem;
+  
+}
+.testimonial-section .carousel-item p
+{
+  font-size: 1.3125rem;
+  line-height: 2.0625rem;
+  padding: 0 11% 0.625rem;
+}
+/*Book-food-Section*/
+/*==========================*/
+.book-food
+{
+  width: 100%;
+  background: url("image/bg-image.avif")no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+  
+}
+
+/*Newslettwer-Section*/
+/*==========================*/
+.Newsletter
+{
+  width: 77%;
+  margin: 0 auto;
+  margin-right: 1rem;
+}
+.Newsletter .form-control 
+{
+  height: 3.225rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border: 0.1875rem solid gray;
+  color: black;
+
+}
+.Newsletter .form-control:hover
+.Newsletter .form-control:focus
+{
+  outline: none;
+  box-shadow: none;
+  border: #dc3545;
+}
+
+/*Footer-section*/
+
+
+.footer-section {
+  width: 100%;
+  margin: 5.125rem 0 0 0; /* Top margin only */
+  background-color: #dc3545;
+}
+.footer-wrapper a 
+{
+  color: white!important;
+  font-size: 1rem;
+  padding: 0 1rem;
+  
+}
+.footer-social i
+{
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+
+.footer-wrapper a:hover
+{
+  text-decoration: underline;
+
+}

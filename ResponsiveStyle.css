@@ -1,0 +1,98 @@
+
+@media(max-width:991px){
+
+.navigation-wrap
+{
+    background-color: white;
+}
+
+.top-banner
+{
+  width: 100%;
+  background: url("image/flat-lay-food-assortment-with-copy-space.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10.857rem;
+  padding-bottom: 9.375rem;
+  padding-left: 8rem;
+  
+
+}
+.main-button
+{
+  padding: 0.2rem;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(183, 3, 3);
+  
+}
+
+.white-button
+{
+  padding: 0.2rem;
+  margin-left: 1rem;
+  font-weight: 400;
+  color: black;
+  background-color:transparent; 
+  
+}
+
+h2{
+   font-weight: 650;
+}
+
+}
+@media (max-width:775px)
+{
+ .responsivebtn
+            {
+                width: 100%;
+}
+    
+
+@media(max-width:576px)
+    {
+
+     h2{
+          font-weight: 500;
+       }
+
+       .main-button
+            {
+            padding: 0.1rem;
+            font-weight: 300;
+            color: white;
+            background-color: rgb(183, 3, 3);
+            
+            }
+
+.white-button
+            {
+            padding: 0.1rem;
+            margin-left: 1rem;
+            font-weight: 300;
+            color: black;
+            background-color:transparent; 
+            
+            }
+
+ .Newsletter
+                {
+                width: 77%;
+                margin: 0 auto;
+                
+                }
+ .responsivebtn
+            {
+                width: 100%;
+                margin: 0 auto;
+                height: 3.225rem;
+                padding: 0 1.25rem;
+                font-size: 0.875rem;
+                font-weight: 700;
+               
+                
+            }
+
+    }
