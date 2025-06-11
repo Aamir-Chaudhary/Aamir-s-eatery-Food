@@ -3,7 +3,7 @@
 
 Welcome to **Aamir's Eatery** — a modern and responsive food ordering website built using HTML, CSS, and Bootstrap 5. This platform allows users to explore the menu, learn about the restaurant, and easily place food orders online.
 
-![Logo](./logo.png)
+
 
 ---
 
@@ -35,16 +35,6 @@ Welcome to **Aamir's Eatery** — a modern and responsive food ordering website 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 open index.html in your browser
-
-## 🖼️ Screenshots
-
-
-![image](https://github.com/user-attachments/assets/476bf47d-8f86-471a-a6cc-b2269d771544)
-
-
-
-
-
 
 
 
