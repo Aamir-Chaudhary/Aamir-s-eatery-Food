@@ -57,3 +57,51 @@ counter ("count3", 0, 1440, 3000);
 counter ("count4", 0, 1000, 3000);
 
 });
+
+
+// Function to update the badge display on any page load
+function updateBadgeDisplay() {
+    const cartBadge = document.getElementById('cart-count');
+    let savedCount = localStorage.getItem('cartCount') || 0;
+    if(cartBadge) {
+        cartBadge.textContent = savedCount;
+    }
+}
+// Function to update the badge display
+function updateBadgeDisplay() {
+    const cartBadge = document.getElementById('cart-count');
+    let savedCount = localStorage.getItem('cartCount') || 0;
+    if(cartBadge) cartBadge.textContent = savedCount;
+}
+
+// Logic for clicking "Order Now"
+const orderButtons = document.querySelectorAll('.main-button');
+
+orderButtons.forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        // 1. GATEKEEPER: Check login status
+        const isLoggedIn = localStorage.getItem('isLoggedIn');
+        if (isLoggedIn !== 'true') {
+            alert("Please login first to place an order!");
+            window.location.href = "login.html";
+            return;
+        }
+
+        // 2. CAPTURE DATA: Find the price in the card
+        const cardBody = this.closest('.card-body');
+        const priceText = cardBody.querySelector('.white-button').textContent;
+        const priceValue = priceText.replace('Rs', '').trim();
+        
+        // 3. SAVE TO STORAGE
+        let currentCount = parseInt(localStorage.getItem('cartCount')) || 0;
+        localStorage.setItem('cartCount', currentCount + 1);
+        localStorage.setItem('selectedPrice', priceValue);
+
+        // 4. GO TO PAYMENT
+        window.location.href = "payment.html";
+    });
+});
+
+document.addEventListener('DOMContentLoaded', updateBadgeDisplay);
