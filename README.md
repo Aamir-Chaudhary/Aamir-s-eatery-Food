@@ -1,7 +1,7 @@
 
 # 🍽️ Aamir's Eatery
 
-Welcome to **Aamir's Eatery** — a modern and responsive food ordering website built using HTML, CSS, and Bootstrap 5. This platform allows users to explore the menu, learn about the restaurant, and easily place food orders online.
+Welcome to **Aamir's Eatery** — a modern and responsive food ordering website built using HTML, CSS, and Bootstrap 5,JavaScript and fireBase for backend. This platform allows users to explore the menu, learn about the restaurant, and easily place food orders online.
 
 
 
@@ -28,6 +28,8 @@ Welcome to **Aamir's Eatery** — a modern and responsive food ordering website 
 - HTML5
 - CSS3
 - Bootstrap 5
+- JavaScript
+- FireBase
 
 ## 🛠️ How to Use Locally
 
