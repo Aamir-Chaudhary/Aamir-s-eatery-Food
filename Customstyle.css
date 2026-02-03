@@ -256,3 +256,13 @@ border-radius: 0.625rem;
   text-decoration: underline;
 
 }
+
+#cart-count {
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+    min-width: 1.2rem;
+}
+
+.cart-icon:hover i {
+    color: red !important;
+}
